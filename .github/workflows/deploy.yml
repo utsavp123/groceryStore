@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2
+        uses: utsavp123/checkout@v2
 
       - name: Install PHP
-        uses: shivammathur/setup-php@v2
+        uses: utsavp123/setup-php@v2
         with:
           php-version: '7.4'
 
