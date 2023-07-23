@@ -26,26 +26,4 @@ jobs:
 
       - name: Deploy to Hosting Environment
         run: |
-          # Replace the following commands with your deployment commands for a local web server (e.g., XAMPP or WAMP)
-
-          # Assuming your project is in the 'public' directory, you can copy it to the web server's document root
-          cp -r public/* /path/to/htdocs
-
-          # If using XAMPP, you can start the Apache server
-          # Replace 'xampp-control.exe' with the actual path to your XAMPP control panel executable
-          "C:\xampp\xampp-control.exe" start
-
-          # If using WAMP, you can start the Apache server
-          # Replace 'wampmanager.exe' with the actual path to your WAMP manager executable
-          "C:\wamp\wampmanager.exe" start
-
-          # You may need to restart the Apache server to apply changes
-          # Uncomment the line below if necessary
-          # "C:\xampp\xampp-control.exe" restart
-          
-          # Wait for the server to start (you can increase the sleep time if needed)
-          sleep 10
-
-          # Display the URL where the project can be accessed in the browser
-          echo "Your PHP project is now accessible at http://localhost/"
-
+          # Add your deployment commands here
